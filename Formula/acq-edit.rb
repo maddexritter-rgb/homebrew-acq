@@ -1,9 +1,9 @@
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.4"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.4/acq-edit-0.2.0-preview.4.tar.gz"
-  sha256 "5e035415be76a336db38311d4ad285b71ca3388d7e57857538459e9b09c69e7d"
+  version "0.2.0-preview.5"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.5/acq-edit-0.2.0-preview.5.tar.gz"
+  sha256 "121b2c4b2c9a50d5b3201b1f9fd44fbca1ea00a1bf292a9a393235515590a460"
   license :cannot_represent
 
   depends_on :macos
@@ -31,7 +31,8 @@ class AcqEdit < Formula
       Open the shown folder in Codex or Claude Code and ask for guided setup.
       Direct setup: acq-edit onboard filmcraft codex
       Alternatives: premiere / claude. Sign into your selected agent first.
-      FilmCraft also needs Rust and Xcode Command Line Tools.
+      FilmCraft uses a prebuilt runtime on Apple silicon with macOS 15.7+.
+      Rust is needed only for an explicitly selected source build.
       Public source and team assets download without a GitHub account.
       Settings, native runtimes and projects live outside Homebrew's Cellar.
     EOS

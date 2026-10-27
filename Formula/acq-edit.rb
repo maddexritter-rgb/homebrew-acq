@@ -1,9 +1,9 @@
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.9"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.9/acq-edit-0.2.0-preview.9.tar.gz"
-  sha256 "78c40ce718d3fb552c8e51c29a3ca553ba590b55a06021bd19e4ead83e5afdda"
+  version "0.2.0-preview.10"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.10/acq-edit-0.2.0-preview.10.tar.gz"
+  sha256 "1e6aca9861789099a9ce63fd15242723adcbb8bcf20ed3ecd1a96f22081ead68"
   license :cannot_represent
 
   depends_on :macos

@@ -3,9 +3,9 @@ require_relative "../lib/acq_private_release"
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.1"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.1/acq-edit-0.2.0-preview.1.tar.gz", using: AcqPrivateRelease
-  sha256 "ec1ff1170f0e4ef7e7d56c6a586a13687fd3196d1cdaaf00c772547b231537fe"
+  version "0.2.0-preview.2"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.2/acq-edit-0.2.0-preview.2.tar.gz", using: AcqPrivateRelease
+  sha256 "4576b5e7a595b613fc14a6f466a4d591b197c307e57332b787c2bb2555f720f5"
   license :cannot_represent
 
   depends_on :macos

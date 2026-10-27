@@ -1,15 +1,15 @@
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.11"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.11/acq-edit-0.2.0-preview.11.tar.gz"
-  sha256 "1d966b88c9acc57ea06a4c8d8abd10970f5287adf277043cd1cc9c405d9e7a5d"
+  version "0.2.0-preview.12"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.12/acq-edit-0.2.0-preview.12.tar.gz"
+  sha256 "1bf2a4338a282238e63838a04406baa8c58f951f48bafebd25b812484222a0a6"
   license :cannot_represent
 
   depends_on :macos
   depends_on "node@24"
   depends_on "python@3.11"
-  depends_on "ffmpeg"
+  # FFmpeg is provisioned by guided setup, preserving existing tap providers.
   depends_on "fontconfig"
   depends_on "gh"
   depends_on "git"
@@ -28,6 +28,8 @@ class AcqEdit < Formula
   def caveats
     <<~EOS
       Start with: acq-edit onboard guide
+      Check existing FFmpeg first: acq-edit media-check
+      If absent: acq-edit media-check --install-missing
       Open the shown folder in Codex or Claude Code and ask for guided setup.
       Direct setup: acq-edit onboard filmcraft codex
       Alternatives: premiere / claude. Sign into your selected agent first.

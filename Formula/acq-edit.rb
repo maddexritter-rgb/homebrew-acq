@@ -3,9 +3,9 @@ require_relative "../lib/acq_private_release"
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.2"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.2/acq-edit-0.2.0-preview.2.tar.gz", using: AcqPrivateRelease
-  sha256 "4576b5e7a595b613fc14a6f466a4d591b197c307e57332b787c2bb2555f720f5"
+  version "0.2.0-preview.3"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.3/acq-edit-0.2.0-preview.3.tar.gz", using: AcqPrivateRelease
+  sha256 "8add8a531f9542e149195684ef9ad722445e62c5d3693fbb4a0305c0fb158c0f"
   license :cannot_represent
 
   depends_on :macos
@@ -29,7 +29,9 @@ class AcqEdit < Formula
 
   def caveats
     <<~EOS
-      Run as your own user: acq-edit onboard filmcraft codex
+      Start with: acq-edit onboard guide
+      Open the shown folder in Codex or Claude Code and ask for guided setup.
+      Direct setup: acq-edit onboard filmcraft codex
       Alternatives: premiere / claude. Sign into your selected agent first.
       FilmCraft also needs Rust and Xcode Command Line Tools.
       Private team assets require your GitHub login.

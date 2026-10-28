@@ -1,9 +1,9 @@
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.16"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.16/acq-edit-0.2.0-preview.16.tar.gz"
-  sha256 "07b86942cff29e7662352ec5da27188d528f1d450e4847067930c9f703ee6785"
+  version "0.2.0-preview.17"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.17/acq-edit-0.2.0-preview.17.tar.gz"
+  sha256 "e7d53dd39227542cceaf4bc57a7104e87fc6d9ed2293c3f7258833186feccaef"
   license :cannot_represent
 
   depends_on :macos
@@ -34,6 +34,8 @@ class AcqEdit < Formula
       Open the shown folder in Codex or Claude Code and ask for guided setup.
       Direct setup: acq-edit onboard filmcraft codex
       Alternatives: premiere / claude. Editing stays in your existing signed-in chat.
+      Claude onboarding registers the six skills across local projects.
+      Skill updates preserve modified or unrelated personal skills.
       No separate agent CLI setup or login. Separate agent workers are removed.
       Frame setup: get the shared Adobe client ID and secret from Maddex.
       Sign into your own Adobe account and use your own Monday API token; no new app needed.

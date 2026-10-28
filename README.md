@@ -40,3 +40,8 @@ The formula installs immutable source. Mutable runtimes, fonts, assets, credenti
 live outside the Cellar. Installing/upgrading the formula does not open or modify editor projects.
 New native-only completion and cross-editor reconstruction remain subject to the qualification
 limits in the [issue ledger](https://github.com/maddexritter-rgb/acq-edit/blob/main/docs/SESSION_REPAIR_LEDGER.md).
+
+Claude Code onboarding registers exactly six personal skills across local projects:
+edit, assembly-design, horizontal-to-vertical, caption-clips, music and monday. Upgrades
+retarget owned links only after verifying the prior runtime is unchanged. See the
+[teammate update prompt and customization guide](https://github.com/maddexritter-rgb/acq-edit/blob/main/docs/UPDATES_AND_CUSTOMIZATIONS.md).

@@ -14,7 +14,8 @@ use the existing installation and its policy, not a second Homebrew install.
 
 Open the shown toolkit folder in Codex or Claude Code and ask the agent to guide setup. It gathers
 your editor/storage choices, installs the selected integration, opens private key entry and helps
-with Frame/Monday sign-in. See [onboarding](https://github.com/maddexritter-rgb/acq-edit/blob/main/docs/ONBOARDING.md).
+with Frame/Monday sign-in. Get the shared Adobe client ID and secret from Maddex; do not
+create another Adobe app. Sign into your own Adobe account and supply your own Monday API token. See [onboarding](https://github.com/maddexritter-rgb/acq-edit/blob/main/docs/ONBOARDING.md).
 
 For updates:
 

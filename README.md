@@ -1,3 +1,9 @@
+Ask your existing Claude Code or Codex chat to install or update ACQ Edit and finish setup.
+The agent executes the commands below; users do not need to open a terminal or set up
+another CLI. Separate agent workers are removed in preview.16. After upgrading, the agent
+reads the new package's onboarding guide and resumes each selected engine using saved
+choices so its registered runtime and skills receive the update. Keys and projects stay intact.
+
 # ACQ Edit Homebrew / Workbrew tap
 
 Use the existing Homebrew or Workbrew `brew` command:

@@ -1,9 +1,9 @@
 class AcqEdit < Formula
   desc "Agent-driven native editing and local clip review"
   homepage "https://github.com/maddexritter-rgb/acq-edit"
-  version "0.2.0-preview.13"
-  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.13/acq-edit-0.2.0-preview.13.tar.gz"
-  sha256 "9198b0381a0f09dc304ce565e5695c2eaa1fe6cc3c32e9bd5103a22d29a558f4"
+  version "0.2.0-preview.14"
+  url "https://github.com/maddexritter-rgb/acq-edit/releases/download/v0.2.0-preview.14/acq-edit-0.2.0-preview.14.tar.gz"
+  sha256 "39ce1cec6fd6a3d13cd1639e74f2fc053b2f6f8efc3df8d25738eda9a354a3bc"
   license :cannot_represent
 
   depends_on :macos
@@ -35,6 +35,8 @@ class AcqEdit < Formula
       Alternatives: premiere / claude. Editing stays in your existing signed-in chat.
       No second agent CLI login is required. Background workers are opt-in.
       Paste Drive file/folder links into chat; drive-login guides Google browser sign-in.
+      Premiere 26.3.0 and 26.5.2 are enabled; setup detects the installed host.
+      Existing owned panel: onboard premiere-panel --update-owned
       Both editors: onboard each, then route commands with --engine filmcraft or premiere.
       Your agent can use --non-interactive after gathering your choices.
       FilmCraft uses a prebuilt runtime on Apple silicon with macOS 15.7+.
